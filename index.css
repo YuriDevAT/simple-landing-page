@@ -137,7 +137,7 @@ form button:hover {
 }
 
 /*Section LIST-------------------------------------*/
-main div {
+.main div {
   font-size: 18px;
   margin-left: 40px;
   line-height: 2;
@@ -157,6 +157,13 @@ h2 {
 iframe {
   max-width: 560px;
   width: 100%;
+}
+
+@media screen and (max-width: 610px) {
+  #video {
+    margin-top: 200px;
+    height: 60vh;
+  }
 }
 
 /*Section PRODUCTS-------------------------------------*/
